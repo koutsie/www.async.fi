@@ -1,0 +1,49 @@
+/* ==UserStyle==
+@name         Darksync-for-async
+@description  Nightmode for async.fi
+@namespace    colormodsig
+@version      0.1.0
+@preprocessor default
+==/UserStyle== */
+@-moz-document domain("www.async.fi") {
+body {
+    color: #fff;
+    background-color: #000;
+}
+*,
+h1 a,
+h2 a,
+h3 a,
+time a {
+    color: #fff;
+}
+
+a {
+    color: #e91e63;
+    text-decoration: none;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 20px 0 20px;
+    border-left: 6px solid #393939;
+}
+code {
+    color: #e91e63;
+    background-color: #fff;
+}
+.input-group .form-control {
+    display: table-cell;
+    color: #fff;
+    background-color: #000;
+}
+.input-group-addon,
+.input-group-btn {
+    color: #fff;
+    background-color: #000;
+}
+.btn-default {
+    color: #fff;
+    background-color: #000;
+}
+}
